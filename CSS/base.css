@@ -7,6 +7,8 @@
 body {
     font-size: 16px;
     line-height: 24px;
+    background-color: #FFFFFF;
+
 }
 
 
@@ -18,16 +20,17 @@ p {
 header {
     padding-top: 10px;
     background-color: #000000; 
-    height: 65px;
+    height: 70px;
     color: #ffffff;
     
 }
 
 header h1 {
-    float:left;
+    float: left;
+    font-family:"helvetica";
     font-size: 35px;
     font-weight: 500;
-    padding: 10px;
+    padding: 10px; 
 }
 
 header nav {
@@ -38,6 +41,7 @@ header nav {
     
 header a {
     color: #ffffff; 
+    font-family: "helvetica";
     margin-right: 20px;
     text-decoration: none;
 }
@@ -57,28 +61,31 @@ header a: focus{}
 }
 
 header h2 {
-    float:right;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
     padding: 10px;
 }
 
-
+    
+    
 article { 
     clear: both;
     padding: 0 10px 0 10px
 }
 
 article h1 {
-    font-size: 24px;
-    line-height: 44px;
-    margin-top: 4px;
-    
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 30px;
+      
 }
 
 figure {
-    float:left;
-    width: 310px} 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 550px} 
 }
 
 footer {padding: 0 10px 0 10px
